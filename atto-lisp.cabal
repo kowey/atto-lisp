@@ -26,6 +26,7 @@ library
 
   exposed-modules:
     Data.AttoLisp
+    Data.AttoLisp.Internal
 
   ghc-options: -Wall
   default-language: Haskell2010
