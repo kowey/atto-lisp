@@ -17,8 +17,10 @@ import Test.Framework
 import Data.AttoLisp
 import TestUtil
 import qualified Data.AttoLisp.Test
+import qualified Data.AttoLisp.Test.CL
 
 main :: IO ()
 main = defaultMain
   [ Data.AttoLisp.Test.suite
+  , Data.AttoLisp.Test.CL.suite
   ]

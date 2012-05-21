@@ -26,6 +26,7 @@ library
 
   exposed-modules:
     Data.AttoLisp
+    Data.AttoLisp.CL
     Data.AttoLisp.Internal
 
   ghc-options: -Wall
